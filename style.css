@@ -72,3 +72,20 @@ p {
   margin-left: 20%;
   margin-right: 20%;
 }
+
+.formitable {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: left;
+}
+
+.formitable table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
