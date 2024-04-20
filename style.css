@@ -38,11 +38,16 @@ header, .footer {
   color: #212121
 }
 
-.navbar ul {
+ul {
   list-style-type: none;
 }
 
-.navbar li {
+.topics a {
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
+li {
   display: inline;
   padding: 0.5%;
 }
@@ -55,10 +60,9 @@ header, .footer {
 .imgbox img {
   display: inline-block !important;
   max-width: 11% !important;
-  padding: 0.25%;
   height: 25%;
   width: 25%;
-  border: 5px solid #000000;
+  border: 2.5px solid #ddd;
   size: 50%;
 }
 
@@ -88,4 +92,17 @@ th, td {
   text-align: center;
   padding: 8px;
   border-bottom: 1px solid #ddd;
+}
+
+#special {
+  padding: 1%;
+}
+
+#special img {
+  border: 2.5px solid #ddd;
+}
+
+#important {
+  color: #ff0000;
+  background: yellow;
 }
