@@ -106,3 +106,7 @@ th, td {
   color: #ff0000;
   background: yellow;
 }
+
+.ninety img {
+  transform: rotate(90deg);
+}
