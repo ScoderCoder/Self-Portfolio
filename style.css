@@ -110,3 +110,7 @@ th, td {
 .ninety img {
   transform: rotate(90deg);
 }
+
+.ninetya img {
+  transform: rotate(270deg);
+}
